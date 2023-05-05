@@ -2,4 +2,4 @@
 
 while read p; do
   geth attach --exec admin.addPeer\($p\) http://localhost:8545
-done <nodes-testnet.txt
+done <testnet-nodes.txt
